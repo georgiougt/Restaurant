@@ -43,8 +43,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             confirmAlert.innerHTML = `
                 <div style="background: rgba(203, 178, 121, 0.15); border: 1px solid var(--color-gold); padding: 1.5rem; border-radius: 1rem; text-align: center; margin-top: 1.5rem;">
-                    <div style="color: var(--color-gold); font-family: var(--font-serif-display); font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">
-                        ✦ RESERVATION REQUEST RECEIVED ✦
+                    <div style="display: flex; align-items: center; justify-content: center; gap: 0.5rem; color: var(--color-gold); font-family: var(--font-serif-display); font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">
+                        <span class="material-symbols-outlined" style="font-size: 1.3rem;">check_circle</span> RESERVATION REQUEST RECEIVED
                     </div>
                     <p style="color: #F5F2EB; font-size: 0.9rem; line-height: 1.6;">
                         Thank you, <strong>${name}</strong>. Your table for <strong>${guests}</strong> on <strong>${date} at ${time}</strong> has been logged.
